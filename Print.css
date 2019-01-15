@@ -1,0 +1,23 @@
+@media print {
+    html {
+        filter: grayscale(100%);
+        orphans: 3;
+        widows: 3
+    }
+    input, button, p.note, nav {
+        display: none;
+    }
+    body {
+        font-size: 80%;
+    }
+    h1.title {
+        font-size: 300%;
+        border: outset 0.5px black;
+    }
+    table.tableBest, table.tableNew {
+        page-break-after: always;
+    }
+    section.textSections, article #ourProducts {
+        page-break-before: always;
+    }
+}

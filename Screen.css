@@ -1,0 +1,189 @@
+body {
+    margin: auto;
+    margin-left: 9%;
+    margin-right: 9%;
+    margin-top: 2%;
+    margin-bottom: 5%;
+    font-size: medium;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    font-family: verdana;
+    background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/1400/7e1a8659070593.5a142bd10b3f9.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #cccccc;
+    background-attachment: fixed;
+    width: 80%;
+}
+
+#top {
+    border: outset 1px black;
+    background-color: darkgrey;
+    opacity: 0.95;
+    width: 100%
+}
+
+h1 {
+    color: darkgreen;
+    font: small-caps bold 500% sans-serif;
+    text-align: center;
+}
+
+h2 {
+    text-indent: 30px;
+    font: italic bold 200% Arial;
+    text-align: left;
+}
+
+h3 {
+    color: darkGreen;
+    font-size: 200%;
+    text-decoration: underline;
+    text-align: center;
+    text-transform: capitalize;
+    background-color: lightsalmon;
+    opacity: 0.96;
+}
+
+img {
+    width: 120px;
+    height: 90px;
+    caption-side: bottom;
+    vertical-align: baseline;
+    float: none
+}
+
+article {
+    font: 17px arial, sans-serif;
+    background-color: linen;
+    opacity: 0.90;
+    text-align: center
+}
+
+p.note {
+    background-color: white;
+    color: crimson;
+    font-weight: bold;
+}
+
+ol {
+    list-style: upper-roman inside;
+    text-align: center
+}
+
+nav.pre {
+    margin: 10% 10% 10% 10%;
+    color: orange;
+    font: bold;
+}
+
+ul li {
+    display: inline;
+    padding: 10px;
+    list-style-type: none;
+    list-style-position: inside;
+}
+
+dl dt {
+    display: list-item;
+    list-style-position: inside;
+    list-style-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2nRr2CVEqL5PB47yogiW07LjuVykN4HVvW_KE0xHs8zGMsrpYAw');
+}
+
+nav {
+    border: 2px dotted lightgreen;
+    height: 60px;
+    width: 100%;
+    background: black fixed center;
+    opacity: 0.95;
+    text-align: center;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    border-spacing: 10px;
+    width: 100%;
+    background-color: lightgrey;
+    opacity: 0.96;
+}
+
+td, th {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: white;
+}
+
+th {
+    font-size: 140%;
+    font-weight: bold
+}
+
+a:hover {
+    background-color: red;
+}
+
+a:visited {
+    color: yellowgreen
+}
+
+a:link {
+    color: Orange
+}
+
+a:active {
+    color: cyan
+}
+
+input:focus {
+    background-color: lightyellow;
+}
+
+@media screen and (max-width: 600px) {
+    h1 {
+        color: Darkred;
+        font: 80%;
+        background-color: white
+    }
+    html {
+        font-size: 50%;
+    }
+    form {
+        resize: both;
+        overflow: auto;
+    }
+    body {
+        margin: auto;
+        width: 50%;
+    }
+    table {
+        overflow: auto;
+    }
+}
+
+@media handheld and (min-width: 320px) and (min-height: 480px) {
+    h1 {
+        background-color: white;
+        color: darkblue;
+        font: 40%;
+    }
+    html {
+        font-size: 30%;
+    }
+    form {
+        resize: both;
+        overflow: auto;
+    }
+    body {
+        margin: auto;
+        width: 30%;
+        font-size: 20%;
+    }
+    table {
+        overflow: auto;
+    }
+}
